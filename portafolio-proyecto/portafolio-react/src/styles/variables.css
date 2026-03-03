@@ -1,0 +1,29 @@
+:root {
+  /* Blue Palette */
+  --primary-blue: #0369A1;
+  --light-blue: #0EA5E9;
+  --dark-blue: #075985;
+  --accent-blue: #BAE6FD;
+  --deep-blue: #0C4A6E;
+
+  /* Backgrounds */
+  --pure-white: #FFFFFF;
+  --light-bg: #FAFBFC;
+  --lighter-bg: #F1F5F9;
+  --card-bg: #FFFFFF;
+  --border-light: #E2E8F0;
+
+  /* Text */
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #94A3B8;
+
+  /* Gradients */
+  --gradient-1: linear-gradient(135deg, var(--primary-blue), var(--deep-blue));
+  --gradient-2: linear-gradient(135deg, var(--light-blue), var(--primary-blue));
+  --gradient-3: linear-gradient(135deg, var(--accent-blue), var(--light-blue));
+
+  /* Fonts */
+  --font-display: 'Outfit', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}

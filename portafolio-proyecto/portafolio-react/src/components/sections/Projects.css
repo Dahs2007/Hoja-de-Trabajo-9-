@@ -1,0 +1,21 @@
+.projects {
+  padding: 8rem 3rem;
+  position: relative;
+}
+
+.projects-grid {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  gap: 4rem;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 4rem 1.5rem;
+  }
+
+  .projects-grid {
+    gap: 2rem;
+  }
+}

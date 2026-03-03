@@ -1,0 +1,165 @@
+.about {
+  padding: 8rem 3rem;
+  background: var(--lighter-bg);
+}
+
+.about-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.about-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.about-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.about-card:hover {
+  border-color: var(--primary-blue);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+.about-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: rgba(3, 105, 161, 0.06);
+  border-radius: 10px;
+  color: var(--primary-blue);
+  margin-bottom: 1rem;
+}
+
+.about-card h3 {
+  font-size: 1.25rem;
+  color: var(--primary-blue);
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+.about-card p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.hobbies-card {
+  grid-column: 1 / -1;
+}
+
+.hobbies-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hobby-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: rgba(3, 105, 161, 0.06);
+  border: 1px solid rgba(3, 105, 161, 0.15);
+  border-radius: 50px;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  color: var(--primary-blue);
+  cursor: default;
+}
+
+.experience-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  padding: 2.5rem;
+  align-self: start;
+}
+
+.experience-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.experience-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: rgba(3, 105, 161, 0.06);
+  border-radius: 12px;
+  color: var(--primary-blue);
+}
+
+.experience-header h3 {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.experience-type {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--primary-blue);
+  padding: 0.25rem 0.75rem;
+  background: rgba(3, 105, 161, 0.06);
+  border-radius: 4px;
+}
+
+.experience-title {
+  font-size: 1.25rem;
+  color: var(--primary-blue);
+  margin-bottom: 0.5rem;
+}
+
+.experience-period {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.experience-description {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+@media (max-width: 1024px) {
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-card {
+    align-self: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 4rem 1.5rem;
+  }
+
+  .about-main {
+    grid-template-columns: 1fr;
+  }
+
+  .hobbies-card {
+    grid-column: 1;
+  }
+}
