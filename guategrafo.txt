@@ -1,0 +1,11 @@
+Guatemala Mixco 10
+Mixco Antigua 30
+Antigua Escuintla 25
+Escuintla SantaLucia 15
+SantaLucia Retalhuleu 40
+Retalhuleu Quetzaltenango 35
+Quetzaltenango Huehuetenango 50
+Huehuetenango Coban 80
+Coban Guatemala 120
+Antigua Chimaltenango 15
+Chimaltenango Guatemala 20
