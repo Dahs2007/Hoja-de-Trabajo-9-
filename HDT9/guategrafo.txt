@@ -1,0 +1,17 @@
+Guatemala Mixco 15
+Guatemala Antigua 28
+Guatemala Escuintla 50
+Mixco Antigua 40
+Antigua Escuintla 55
+Antigua Chimaltenango 20
+Chimaltenango Quetzaltenango 130
+Escuintla Mazatenango 60
+Mazatenango Quetzaltenango 80
+Mazatenango Retalhuleu 45
+Quetzaltenango Huehuetenango 100
+Quetzaltenango SanMarcos 90
+Huehuetenango SanMarcos 85
+SanMarcos Quetzaltenango 85
+Retalhuleu Mazatenango 45
+Escuintla Guatemala 50
+Chimaltenango Guatemala 45
